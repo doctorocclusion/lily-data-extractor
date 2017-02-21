@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Lily's Data Extractor</title>
+</head>
+<body>
+	<div class="container">
+				<textarea id="in" rows="16" cols="128" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"></textarea>
+				<button type="button" id="run">Extract</button>
+				<br>
+				<table border="1">
+				<tr>
+				<td>Color 1</td><td></td><td></td>
+				<td>Color 2</td><td></td><td></td>
+				<td>Color 3</td><td></td><td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				</tr>
+				<tr>
+				<td>H</td><td>S</td><td>V</td>
+				<td>H</td><td>S</td><td>V</td>
+				<td>H</td><td>S</td><td>V</td>
+				<td>Median Saturation</td>
+				<td>Min Saturation</td>
+				<td>Max Saturation</td>
+				<td>Median Value</td>
+				<td>Min Value</td>
+				<td>Max Value</td>
+				</tr>
+				</table>
+				<br>
+				<textarea id="out" rows="16" cols="128" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"></textarea>
+	</div>
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="extract.js"></script>
+</body>
+</html>
